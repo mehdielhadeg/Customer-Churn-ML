@@ -9,3 +9,9 @@ env/
 __pycache__/
 *.py[cod]
 *.pyo
+
+mlruns/
+artifacts/
+data/raw/
+data/processed/
+mlflow.db
