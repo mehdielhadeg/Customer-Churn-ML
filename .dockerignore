@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# MLflow experiment runs (heavy, not needed — model is copied explicitly)
+mlruns/
+
+# Notebooks and dev files
+notebooks/
+*.ipynb
+
+# Raw and processed data (not needed in serving container)
+data/
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local env files
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
