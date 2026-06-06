@@ -11,7 +11,7 @@ __pycache__/
 *.pyo
 
 mlruns/
-artifacts/
+
 data/raw/
 data/processed/
 mlflow.db
