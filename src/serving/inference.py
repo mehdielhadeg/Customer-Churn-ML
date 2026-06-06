@@ -59,8 +59,7 @@ except Exception as e:
 # Load the exact feature column order used during training
 # This ensures the model receives features in the expected order
 try:
-    artifacts_dir = os.path.dirname(MODEL_DIR)
-    feature_file = os.path.join(artifacts_dir, "feature_columns.txt")
+    feature_file = os.path.join(MODEL_DIR, "feature_columns.txt")
     
     with open(feature_file) as f:
         FEATURE_COLS = [ln.strip() for ln in f if ln.strip()]
